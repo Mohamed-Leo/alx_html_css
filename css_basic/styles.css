@@ -54,3 +54,18 @@ main > aside {
 footer {
     background-color: darkblue;
 }
+
+
+@media (max-width: 800px) {
+    body.works_on_smartphone {
+        display: block;
+    }
+
+    body.works_on_smartphone main {
+        display: block;
+    }
+
+    header .right {
+        float: none;
+    }
+}
