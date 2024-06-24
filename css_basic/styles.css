@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, main {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+    color: #fff;
+}
+
+body h1 {
+    color: #000;
+    text-align: center;
+    padding: .5em;
+}
+
+header ,main, footer {
+    padding: .5em;
+    font-size: 2rem;
+}
+
+header {
+    background-color: black;
+}
+
+main {
+    background-color: cadetblue;
+    flex-direction: row;
+    gap: 1em;
+    height: calc(100vh - 208px);
+    flex: auto;
+}
+
+main > article, main > aside {
+    padding: .5em;
+    overflow-y: auto;
+}
+
+main > article {
+    background-color: crimson;
+    flex: 2;
+}
+
+main > aside {
+    background-color: darkred;
+    flex: 1;
+}
+
+footer {
+    background-color: darkblue;
+}
